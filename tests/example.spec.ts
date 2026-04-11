@@ -1,3 +1,4 @@
+// NOTE: Add "type": "module" to package.json to fix the ESM import error
 import { test, expect } from '@playwright/test';
 
 test('has title', async ({ page }) => {
