@@ -12,4 +12,8 @@ test('browser context approach', async () => {
     await expect(page.getByRole('button', {name: 'Continue'})).toBeVisible();
     await expect(page.getByRole('link', {name: 'Forgotten Password'})).toBeVisible();
     await page.getByRole('radio', {name: 'Yes'}).check();
+
+    //CSS Selector is very powerful and most commonly used selector in Playwright. 
+    // It is used to locate elements based on their CSS attributes. It can be used to locate
+    // elements based on their id, class, name, type.
 });
